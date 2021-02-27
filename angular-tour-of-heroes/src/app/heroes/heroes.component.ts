@@ -20,10 +20,10 @@ export class HeroesComponent implements OnInit {
   //wstrzykniecie serwisu przez konstruktor:
   constructor(private heroService: HeroService, private messageService: MessageService) { }
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-    this.messageService.add(`HeroesComponent: Selected hero id=${hero.id}`);
-  }
+  // onSelect(hero: Hero): void {
+  //   this.selectedHero = hero;
+  //   this.messageService.add(`HeroesComponent: Selected hero id=${hero.id}`);
+  // }
 
   /*
   The previous version assigns an array of heroes to the component's heroes property. 
